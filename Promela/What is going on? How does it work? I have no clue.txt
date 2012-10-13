@@ -1,0 +1,10 @@
+What is going on? How does it work? I have no clue.
+Promela seems to be the kind of language that is only well
+explained through interactive examples. Simply looking at the
+specifications for the language or even running pieces of
+toy code aren't enough for me to grasp what's going on.
+Is my code right? Is it doing what you asked? I don't know.
+Part of the problem is that assignments are so trivial
+(in a sense) that for you to provide us with examples of the
+functionality of channels would basically do much of the
+homework for us. /shrug

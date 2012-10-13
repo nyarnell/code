@@ -1,0 +1,5 @@
+(define (map-gen func l)
+   (if (null? l) '()
+       (if (list? (car l))
+           (cons (map-gen func (car l)) (map-gen func (cdr l)))
+           (cons (func (car l)) (map-gen func (cdr l))))))

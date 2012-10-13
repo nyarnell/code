@@ -1,0 +1,13 @@
+Apply takes two arguments - a function and a list of arguments. Apply calls the procedure with the elements of the list as the arguments to the procedure.
+
+(apply + '(3 4)) => 7
+
+The function takes the argument + and applies the argument to the mutable pair (3 4)
+
+(apply * '(4 5)) => 20
+
+The function takes the argument * and applies it to the mutable pair (4 5)
+
+(apply - '(3 19 34)) => -50
+
+The function takes the argument - and applies it to the pair (3 19), and then takes the result of that procedure and applies - to the pair (result, 34)

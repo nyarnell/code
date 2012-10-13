@@ -1,0 +1,23 @@
+Updated todo - Wednesday 11:29pm
+
+
+/******************************************************************************************
+RULE #1 - DO NOT SUBMIT YOUR CODE WITHOUT TESTING, DEBUGGING EVERYONE'S CODE IS NOT ONLY
+	  TIME CONSUMING BUT IT IS A BIG BITCH. AT LEAST TEST IT FIRST!!!!!!
+
+RULE #2 - Do NOT rename files. Code is case-sensitive which means that if you rename things,
+	  it will NOT work.
+
+RULE #3 - Comment your shit.
+*******************************************************************************************/
+
+
+-Dog exception. Put best_lawn back in priority queue and decide on the second best house.
+-Add output to the log file as needed.
+-New customer function needs to be implemented and use the bool vector to decide which
+	customers have already been added.
+-UML diagram
+
+OK. I fixed it by changing best_lawn to be just a Lawn, not a pointer to a Lawn, doing away the temp and the dynamic memory allocation, and passing a dereferenced iterator into set_best_lawn, instead of the address of an iterator. (I also had to take away a pointer on the declaration of that pointer.) I don't see any advantage to having this member variable dynamically allocated.
+
+^ dolan on the seg fault. Someone smart puzzle out exactly what he means about set_best_lawn

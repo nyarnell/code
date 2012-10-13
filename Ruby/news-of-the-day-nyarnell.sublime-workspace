@@ -1,0 +1,1116 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "news-of-the-day-nyarnell/app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/controllers/articles_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/controllers/categories_controller.rb",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/Gemfile",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/helpers/articles_helper.rb",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/categories/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/categories/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/categories/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/categories/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/_single_article.html.erb",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/_articles.html.erb",
+			"settings":
+			{
+				"buffer_size": 342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/_pagination",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/categories/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/search.html.erb",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/views/articles/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/models/category.rb",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "news-of-the-day-nyarnell/app/models/article.rb",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/controllers/pages_controller.rb",
+		"/home/natalie/Code/C++/240A/projects/proj1/assign1.cc",
+		"/home/natalie/Code/Python/primeproduct.py",
+		"/home/natalie/Code/Python/ps6.py",
+		"/home/natalie/Code/Python/ps5.py",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/categories/index.html.erb",
+		"/home/natalie/Code/Ruby/sample_app/spec/spec_helper.rb",
+		"/home/natalie/Code/Ruby/sample_app/Guardfile",
+		"/home/natalie/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/natalie/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
+		"/home/natalie/Code/Ruby/sample_app/Gemfile",
+		"/home/natalie/Code/Ruby/sample_app/.rspec",
+		"/home/natalie/Code/Ruby/sample_app/app/views/layouts/application.html.erb",
+		"/home/natalie/Code/Ruby/sample_app/public/hello.html",
+		"/home/natalie/Code/Ruby/demo_app/config/routes.rb",
+		"/home/natalie/Code/Ruby/demo_app/Gemfile",
+		"/home/natalie/Code/Ruby/demo_app/.gitignore",
+		"/home/natalie/Code/Ruby/first_app/Gemfile",
+		"/home/natalie/Code/Ruby/first_app/.gitignore",
+		"/home/natalie/.gemrc",
+		"/home/natalie/Code/Ruby/blog/app/controllers/comments_controller.rb",
+		"/home/natalie/Code/Ruby/blog/app/controllers/posts_controller.rb",
+		"/home/natalie/Code/Ruby/blog/app/controllers/home_controller.rb",
+		"/home/natalie/Code/Ruby/blog/app/controllers/application_controller.rb",
+		"/home/natalie/Code/Ruby/blog/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/natalie/Code/Ruby/blog/app/views/tags/_form.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/comments/_form.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/comments/_comment.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/posts/show.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/posts/new.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/posts/edit.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/posts/index.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/posts/_form.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/models/tag.rb",
+		"/home/natalie/Code/Ruby/blog/app/models/post.rb",
+		"/home/natalie/Code/Ruby/blog/app/models/comment.rb",
+		"/home/natalie/Code/Ruby/blog/app/views/layouts/application.html.erb",
+		"/home/natalie/Code/Ruby/blog/app/views/home/index.html.erb",
+		"/home/natalie/Code/Ruby/blog/config/routes.rb",
+		"/home/natalie/Code/Ruby/blog/db/migrate/20120929185636_create_posts.rb",
+		"/home/natalie/Code/Ruby/blog/app/assets/stylesheets/posts.css.scss",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/controllers/application_controller.rb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/controllers/categories_controller.rb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/controllers/articles_controller.rb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/stylesheets/scaffolds.css.scss",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/_single_article.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/layouts/application.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/show.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/search.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/controllers/home_controller.rb",
+		"/home/natalie/Code/C++/240C/HW_4/checkers.cc",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/home/index.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/categories/show.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/edit.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/_form.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/index.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/articles/new.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/models/article.rb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/javascripts/articles.js.coffee",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/stylesheets/application.css",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/stylesheets/articles.css.scss",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/stylesheets/search.png",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/categories/edit.html.erb",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/assets/images/rails.png",
+		"/home/natalie/Code/Ruby/news-of-the-day-nyarnell/app/views/categories/new.html.erb",
+		"/home/natalie/Code/Ruby/blog/config/database.yml",
+		"/home/natalie/Code/Ruby/blog/public/index.html",
+		"/home/natalie/Code/Assembly/problem_3.asm",
+		"/home/natalie/Code/Assembly/problem_2.asm",
+		"/home/natalie/Code/Assembly/problem_1.asm",
+		"/home/natalie/cs3560.test/hw3.ToolReview/hw3/Jenkins summary.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "news-of-the-day-nyarnell/app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "news-of-the-day-nyarnell/app/controllers/articles_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "news-of-the-day-nyarnell/app/controllers/categories_controller.rb",
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "news-of-the-day-nyarnell/Gemfile",
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "news-of-the-day-nyarnell/app/helpers/articles_helper.rb",
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "news-of-the-day-nyarnell/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "news-of-the-day-nyarnell/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "news-of-the-day-nyarnell/app/views/articles/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "news-of-the-day-nyarnell/app/views/categories/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "news-of-the-day-nyarnell/app/views/articles/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "news-of-the-day-nyarnell/app/views/categories/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "news-of-the-day-nyarnell/app/views/articles/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "news-of-the-day-nyarnell/app/views/categories/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "news-of-the-day-nyarnell/app/views/articles/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "news-of-the-day-nyarnell/app/views/categories/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "news-of-the-day-nyarnell/app/views/articles/_single_article.html.erb",
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "news-of-the-day-nyarnell/app/views/articles/_articles.html.erb",
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "news-of-the-day-nyarnell/app/views/articles/_pagination",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 18,
+					"file": "news-of-the-day-nyarnell/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1018,
+								1018
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 19,
+					"file": "news-of-the-day-nyarnell/app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "news-of-the-day-nyarnell/app/views/categories/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "news-of-the-day-nyarnell/app/views/articles/search.html.erb",
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "news-of-the-day-nyarnell/app/views/articles/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "news-of-the-day-nyarnell/app/models/category.rb",
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "news-of-the-day-nyarnell/app/models/article.rb",
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.490296495957,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}

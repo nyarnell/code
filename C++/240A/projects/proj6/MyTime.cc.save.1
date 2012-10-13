@@ -1,0 +1,225 @@
+//***************************************************************************
+// File:    MyTime.cc - Implementation file
+// Purpose: This file contains implementation of the class MyTime.
+// Author:  Nathaniel Yarnell
+// Date:    03/1/2011
+// Uses:    iostream
+//***************************************************************************
+
+#include <iostream>
+#include <iomanip>
+#include "MyTime.h"
+using namespace std;
+
+MyTime::MyTime(int h, int m)
+{
+  hours = h;
+  minutes = m;
+  simplify();
+}
+
+MyTime::MyTime(): hours(0), minutes(0) {}
+
+void MyTime::AddMin(int m)
+{
+  minutes = minutes + m;
+  simplify();
+}
+  
+void MyTime::AddHr(int h)
+{
+  hours = hours + h;
+}
+
+void MyTime::Reset(int h, int m)
+{
+  hours=0;
+  minutes=0;
+}
+
+MyTime operator + (const MyTime& t1, const MyTime& t2)
+{
+  MyTime temp;
+  temp.hours = t1.get_hours() + t2.get_hours();
+  temp.minutes = t1.get_minutes() + t2.get_minutes();
+  temp.simplify();
+  return temp;
+
+}
+
+MyTime operator + (const MyTime& t1, int num)
+{
+  MyTime temp;
+  temp.minutes = ((t1.get_hours()*60)+t1.get_minutes()) + num;
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator + (int num, const MyTime& t1)
+{
+  MyTime temp;
+  temp.minutes = ((t1.get_hours()*60)+t1.get_minutes()) + num;
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator - (const MyTime& t1, const MyTime& t2)
+{
+  MyTime temp;
+  temp.hours = t1.get_hours() - t2.get_hours();
+  temp.minutes = t1.get_minutes() - t2.get_minutes();
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator - (const MyTime& t1, int num)
+{
+  MyTime temp;
+  temp.minutes = ((t1.get_hours()*60)+t1.get_minutes()) - num;
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator - (int num, const MyTime& t1)
+{
+  MyTime temp;
+  temp.minutes = num-((t1.get_hours()*60)+t1.get_minutes());
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator * (const MyTime& t1, int num)
+{
+  MyTime temp;
+  temp.minutes = ((t1.get_hours()*60)+t1.get_minutes())*num;
+  temp.simplify();
+  return temp;
+}
+
+MyTime operator * (int num, const MyTime& t1)
+{
+  MyTime temp;
+  temp.minutes = ((t1.get_hours()*60)+t1.get_minutes())*num;
+  temp.simplify();
+  return temp;
+}
+
+istream& operator >> (istream& fin, MyTime& t)
+{
+  fin >> t.hours >> t. minutes;
+  t.simplify();
+  return fin;
+}
+
+ostream& operator << (ostream& fout, const MyTime& t)
+{
+  if (t.get_minutes()>=0 && t.get_hours()>=0)
+  {
+    fout << setfill('0') << setw(2) << t.get_hours() << ":" << setw(2) << t.get_minutes();
+    return fout;
+  }
+  else if (t.get_minutes()<0 && t.get_hours()>=0)
+  {
+    if (t.get_minutes()>-10)
+    {
+      int num;
+      num=0-t.get_minutes();
+      fout << setfill('0') << setw(2) << t.get_hours() << ":" << setw(2) << left << "-" << num;
+      return fout;
+    }
+    else
+    {
+       fout << setfill('0') << setw(2) << t.get_hours() << ":" << setw(2) << t.get_minutes();
+       return fout;
+    }
+  }
+  else if (t.get_minutes()>=0 && t.get_hours()<0)
+  {
+    if (t.get_hours()>-10)
+    {
+      int num;
+      num=0-t.get_hours();
+      fout << setfill('0') << setw(2) << left << "-" << num << ":" << setw(2) << t.get_minutes();
+      return fout; 
+    }
+    else
+    {
+      fout << setfill('0') << setw(2) << t.get_hours() << ":" << setw(2) << t.get_minutes();
+      return fout;
+    }
+  }
+  else if (t.get_minutes()<0 && t.get_hours()<0)
+  {
+    if (t.get_hours()>-10 && t.get_minutes()>-10)
+    {
+      int hours, mins;
+      hours=0-t.get_hours();
+      mins=0-t.get_minutes();
+      fout<< setfill('0') << setw(2) << left << "-" << hours << ":" << setw(2) << "-" << mins;
+      return fout;
+    }
+    else if (t.get_hours()<=-10 && t.get_minutes()>-10)
+    {
+      int mins;
+      mins=0-t.get_minutes();
+      fout<<setfill('0') << setw(2) << left << t.get_hours() << ":" << setw(2) << "-" << mins;
+      return fout;
+    }
+    else if (t.get_hours()>-10 && t.get_minutes()<=-10)
+    {
+      int hours;
+      hours=0-t.get_hours();
+      fout<<setfill('0') << setw(2) << left << "-" << hours << ":" << setw(2) << t.get_minutes();
+      return fout;
+    }
+  }
+}
+
+int MyTime::get_hours() const
+{
+  return hours;
+}
+
+int MyTime::get_minutes() const
+{
+  return minutes;
+}
+
+void MyTime::simplify()
+{
+  if (minutes >=60)
+  {
+    hours = hours+(minutes/60);
+    minutes = minutes%60;
+  }
+  if (minutes <0 && hours>0)
+  { 
+    hours = hours-1;
+    minutes = 60 + minutes;
+    simplify();
+  }
+  else if (minutes <0 && hours<=0)
+  {
+    
+}
+
+bool operator == (const MyTime& t1, const MyTime& t2)
+{
+  return ((t1.get_hours()==t2.get_hours())&&(t1.get_minutes()==t2.get_minutes()));
+}
+
+bool operator < (const MyTime& t1, const MyTime& t2)
+{
+  int a, b;
+  a=((t1.get_hours()*60)+t1.get_minutes());
+  b=((t2.get_hours()*60)+t2.get_minutes());
+  return (a<b);
+}
+
+bool operator > (const MyTime& t1, const MyTime& t2)
+{
+  int a, b;
+  a=((t1.get_hours()*60)+t1.get_minutes());
+  b=((t2.get_hours()*60)+t2.get_minutes());
+  return (a>b);
+}

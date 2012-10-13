@@ -1,0 +1,58 @@
+
+class customer:
+	int house_number;
+	string street_name;
+	double location[1];
+	int income;
+	double coordinates[1];
+	double grass_length;
+	void set_grass_length(double length);
+	void grow_grass(double length);
+	double lawn_area;
+
+class company:
+	labor_costs;
+	vehicle_costs;
+	lawnmower_costs;
+	total_cost;
+	pay_labor();
+	pay_vehicle();
+	pay_lawnmower();
+	
+	
+	
+program starts:
+	initialize company object.
+	get the CLA (command line argument) of customers from lawns.txt.
+		for each customer: set house_number, street_name, location[1], coordinates[1], income, grass_length=3.0, calculate lawn_area
+		do this in an input function, so it can be reused when new customers are randomly added later. Leave lawn.txt open.
+	generate the CLA of crew objects (inside company object?) (are crew objects necessary?)
+	get CLA for number of days. Start outer loop with (int i=1, while i<CLA) start with day 1 not 0;
+		at the beginning of the loop, check for adding a new customer. if yes -> call customer.input();
+		prioritize queue based on grass_length;
+		check for rain. if yes ->
+			need to pay each crew $20
+			grass of every house in priority queue needs to grow by .27 inches.
+			output to logfile that it has rained on this day number (i).
+		else if priorityqueue.top()<3.0
+			pay each crew $20
+			grass of all houses needs to grow .15 inches
+		else we have lawns to cut and the weather is good.
+			At the beginning of the day, the location of all crews need to be set to (5.0), (7.5)
+			begin hour loop for 10 hours.
+				each hour, we should pay each crew $17
+				each minute, we need to:
+					check if if crew on top of our crew list is busy. If they are, move to the next crew until one is found.
+					if none are found, increment minute
+					else we need to check if the crew can travel to the house and mow it before the end of the day.
+					if they can and the house's grass_length > 2.0:
+						calculate how many minutes it will take the crew to travel there and cut the grass.
+						calculate how much money that will cost.
+						use the minute counter to set the crew to busy until they are done
+						when they are set to arrive at the house, do the dog exception check.
+						if the dog is not there, change the crew's location to the house's location
+						when they are done, set the house's grass length to 2.0 and insert the house at the bottom of the priorityqueue.
+						set busy to false
+					
+			grass grows by .15 inches.
+			

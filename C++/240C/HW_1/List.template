@@ -1,0 +1,258 @@
+// Name: Nathaniel Yarnell
+// Date: 4/7/2012
+// Description: This file contains the implementation of the class List.
+
+#ifndef LIST_TEMPLATE
+#define LIST_TEMPLATE
+template<class T>
+List<T>::~List()
+{
+	Dnode<T> *current = head;
+	while(current)
+	{
+		Dnode<T> *next = current->next();
+		delete current;
+		current=next;
+	}
+	delete[]head;
+	delete[]tail;
+	//cout << "yum ram" << endl;
+}
+
+template<class T>
+List<T>::List(const List& copy)
+{
+	Dnode<T> *s_ptr = new Dnode<T>;
+	Dnode<T> *d_ptr = new Dnode<T>;
+	if (!copy.head) {head=tail=NULL;}
+	else
+	{
+		s_ptr = copy.head;
+		head = new Dnode<T>;
+		head->set_data(s_ptr->data());
+		d_ptr=head;
+		s_ptr=s_ptr->previous();
+		while (s_ptr)
+		{
+			d_ptr->previous() = new Dnode<T>;
+			d_ptr = d_ptr->previous();
+			d_ptr->set_data(s_ptr->data());
+			s_ptr=s_ptr->previous();
+		}
+		d_ptr->set_previous(NULL);
+	}
+}
+
+template<class T>
+void List<T>::output_list()
+{
+	if (head)
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp=head;
+		cout << temp->data() << " ";
+		while (temp->previous())
+		{
+			temp=temp->previous();
+			cout << temp->data() << endl;
+		}
+		cout << endl;
+	}
+}
+template<class T>
+void List<T>::front_insert(T item)
+{
+	if (!head) // 0 item list
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		head=temp;
+		tail=temp;
+	}
+	else // >=1 item list
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		temp->set_previous(head);
+		head->set_next(temp);
+		head=temp;
+	}
+}
+
+template<class T>
+void List<T>::rear_insert(T item)
+{
+	if (!head) // 0 item list
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		head=temp;
+		tail=temp;
+	}
+	else // >=1 item list
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		temp->set_next(tail);
+		tail->set_previous(temp);
+		tail=temp;
+	}
+}
+
+template<class T>
+void List<T>::front_remove()
+{
+	if (!head) // 0 item list
+	{
+		cout << "The list is already empty" << endl;
+	}
+	else if (!head->previous() && !head->next()) // 1 item list
+	{
+		head=tail=NULL;
+	}
+	else // +=2 item list
+	{
+		head=head->previous();
+		head->set_next(NULL);
+	}
+}
+
+template<class T>
+void List<T>::rear_remove()
+{
+	if (!tail) // 0 item list
+	{
+		cout << "The list is already empty" << endl;
+	}
+	else if (head==tail) // 1 item list
+	{
+		head=tail=NULL;
+	}
+	else // +=2 item list
+	{
+		tail=tail->next();
+		tail->set_previous(NULL);
+	}
+	//cout << tail->data() << endl;
+	//cout << tail->previous() << endl;
+}
+
+template<class T>
+List<T>& List<T>::operator = (const List<T>& other)
+{
+	if (!(this==&other))
+	{
+		Dnode<T> *rm;
+		while (head)
+		{
+			rm=head;
+			head=head->previous();
+			delete rm;
+		}
+		tail=head=NULL;
+		Dnode<T> *cursor = other.head;
+		while (cursor)
+		{
+			rear_insert(cursor->data());
+			cursor=cursor->previous();
+		}
+	}
+	return *this;
+}
+
+template<class T>
+void List<T>::remove(iterator &it)
+{
+	if (!it.currptr) {cout << "There's nothing to remove" << endl;}
+	else if (!it.currptr->next() && !it.currptr->previous())
+	{
+		it.currptr=head=tail=NULL;
+	}
+	else if (!it.currptr->next())
+	{
+		it.currptr->previous()->set_next(NULL);
+		it.currptr=head=it.currptr->previous();
+		delete[]it.currptr->next();
+	}
+	else if (!it.currptr->previous())
+	{
+		it.currptr->next()->set_previous(NULL);
+		it.currptr=tail=it.currptr->next();
+		delete[]it.currptr->previous();
+	}
+	else
+	{
+		it.currptr->next()->set_previous(it.currptr->previous());
+		it.currptr->previous()->set_next(it.currptr->next());
+		delete[]it.currptr;
+	}
+}
+
+//These two functions have weird implementations in order to make them work
+//as a normal person might think of them. My fatal error was in imagining
+//the List to be a tower of nodes, with head at the top and tail at the bottom.
+//In this format, it's possible to think of node->next() as referring to the node
+//one higher than the current one, and node->previous() as the node one below the
+//current one. In reality, most people think of the List as a horizontal row of nodes,
+//with the head at the beginning, and the rest of nodes to the right (like english).
+//Imagining a list that way means that node->next() makes the most sense if it's one
+//node closer to the tail rather than the head. Hopefully all of these implementation
+//details will be irrelevant to the end user, which is the whole point of this project
+//anyway.
+template<class T>
+void List<T>::insert_before(iterator &it, T item)
+{
+	if (!head)
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		it.currptr=head=tail=temp;
+	}
+	else if (!it.currptr->next())
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		it.currptr->set_next(temp);
+		temp->set_previous(it.currptr);
+		head=temp;
+	}
+	else
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		temp->set_next(it.currptr->next());
+		it.currptr->next()->set_previous(temp);
+		temp->set_previous(it.currptr);
+		it.currptr->set_next(temp);
+	}
+}
+
+template<class T>
+void List<T>::insert_after(iterator &it, T item)
+{
+	if (!head)
+	{
+		it.currptr = new Dnode<T>;
+		it.currptr->set_data(item);
+		head=tail=it.currptr;
+	}
+	else if (!it.currptr->previous())
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		it.currptr->set_previous(temp);
+		temp->set_next(it.currptr);
+		tail=temp;
+	}
+	else
+	{
+		Dnode<T> *temp = new Dnode<T>;
+		temp->set_data(item);
+		temp->set_previous(it.currptr->previous());
+		it.currptr->previous()->set_next(temp);
+		temp->set_next(it.currptr);
+		it.currptr->set_previous(temp);
+	}
+}
+
+#endif

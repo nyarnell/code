@@ -1,0 +1,10 @@
+test:
+	java hw2
+
+compile:
+	-javac *.java
+
+submit:
+	git add ny1343510-Nathaniel_Yarnell-hw2-output.txt
+	git commit -m "uploading hw2 output"
+	git push

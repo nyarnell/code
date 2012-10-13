@@ -1,0 +1,13 @@
+Script started on Mon Sep 17 17:26:26 2012
+p1% g++ g_c  cd_recursion.cc
+
+p1% ./a.out
+
+ execution 1: 100
+
+ execution 2: 20
+
+ execution 3: 4
+
+p1% ^D
+script done on Mon Sep 17 17:26:59 2012

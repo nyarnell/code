@@ -1,0 +1,33 @@
+template<class T>
+
+class Queue{
+	puvlic:
+		static const int CAPACITY=30;
+		void push(T item);
+		void pop();
+		T front();
+		bool empty(){return count==0;}
+	private:	
+		T data[CAPACITY];
+		int first, last count;
+		int next_index(int i);
+
+
+int Queue::next_index(int i){
+	return(i+1)%CAPACITY;
+	}
+void Queue::push(T item){
+	assert(count < CAPACITY);
+	last = nex.index(last);
+	data[last] = item;	
+	++count;
+	}
+
+coid Queue::pop(){
+	first = next_index(first);
+	--count;
+	}
+T Queue::front(){
+	assert
+	return data[first];
+}

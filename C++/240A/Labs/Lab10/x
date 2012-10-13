@@ -1,0 +1,21 @@
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main
+{
+  const int SIZE = 10;
+double a_list[] = {3.2,2.6,7.0,12.5,8.3,9.1};
+int nums[SIZE];
+char vowels[] = {'A','E','I','O','U'};
+string name[SIZE];
+float values[SIZE];
+
+cout<<"size of a_list = "<<sizeof(a_list);
+cout<<"size of nums = "<<sizeof(nums);
+cout<<"size of vowels = "<<sizeof(vowels);
+cout<<"size of name = "<<sizeof(name);
+cout<<"size of values = "<<sizeof(values);
+
+return 0;
+}

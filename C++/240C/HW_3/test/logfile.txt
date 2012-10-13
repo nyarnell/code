@@ -1,0 +1,117 @@
+
+Day 1: We have 50 Customers.
+Mowing on day 1.
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+
+Day 2: We have 50 Customers.
+Mowing on day 2.
+Crew sent home for the day
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+
+Day 3: We have 50 Customers.
+Mowing on day 3.
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew Mowed Lawn
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+Crew sent home for the day
+
+Total costs: $57930.6
+Labor costs: $12750
+Vehicle costs: $903.1
+Lawnmower costs: $44277.5

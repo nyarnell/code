@@ -1,0 +1,6 @@
+(define (mirror l)
+  (if (null? l)
+     '()
+     (append (mirror (cdr l)) (list (car l)))
+  )
+)

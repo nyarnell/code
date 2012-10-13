@@ -1,0 +1,33 @@
+This is the file of things im trying to find that i didnt see finished so far, some things might already be finished
+but i just didnt find it
+
+
+Need the grow grass function.
+Need to keep track of the income, houses mowed during simulation.
+Need log file.
+Need to keep track of operation costs.
+Need an inner loop for minutes// if minutes==travel time-mowing time starts, if minutes==mowing time- move to next house
+Mean dog exception:
+if(rand function<=0.02)
+	{
+	//Move crew to another house, exception: dog in yard
+	
+	};
+travel time
+	current location is (x,y) coordinate,
+	next location is (x2,y1)
+	distance=(x2-x)+(y2-y) //is the total miles driven to next destination
+	travel_time=distance/0.5;
+	Truck_cost=0.55*distance;
+
+mowing time
+	yard_size=length*width;
+	mowing rate is 600/(grass height-2);
+	total moving time is yard_size/mowing_rate;
+	mower_costs=yard_size/0.005;	
+
+Pay for crew per day-
+	if not rained $17*how_many_crews*10hrs;
+
+
+	
